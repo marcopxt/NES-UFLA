@@ -21,7 +21,7 @@ This is an repository created to aidded the short course in R programming offere
 
 ## 3.Content
 
-### 1. Download R and RStudio
+#### 1. Download R and RStudio
 
 i. Download R (https://cran.r-project.org/) 
 
@@ -33,11 +33,11 @@ After the download and intallation of R, you can also download and install RStud
 
 **Tip: go to this link (https://www.youtube.com/watch?v=jpptwObI1ps) that they will explain you everything that you need to download and install both tools**
 
-### 2. Introduction to R and RStudio
+#### 2. Introduction to R and RStudio
 
 Integration, console, IDE, and 
 
-### 3. Basic functions in R language 
+#### 3. Basic functions in R language 
 
 Basic functions (mean, var, mode, length, dim, str).
 
@@ -45,17 +45,17 @@ Basic elements (matrix, dataframe, list,)
 
 Import and export datasets
 
-### 5. Download and install packages
+#### 4. Download and install packages
 
 What is a package and how to install and use them.
 
 CRAN and Github
 
-### 6. Models (AoV)
+#### 5. Models (AoV)
 
 Analyses of variance using the package ExpDes (Ferreira et al, 2021).
 
-### 7. Plotting using **ggplot2** package
+#### 6. Plotting using **ggplot2** package
 
 Installing the package ggplot2
 Organizing the dataset
