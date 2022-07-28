@@ -1,10 +1,7 @@
-# Short course in R environment
-M.Sc. Marco Antonio Peixoto
-
+                                                                 # Short course on R environment
+                                                                **M.Sc. Marco Antonio Peixoto**
 PhD. candidate in genetics and breeding - UFV
-
 Visiting researcher scholar - Univeersity of Florida
-
 Quantitative genetics and data analyses
 
 ## 1. Introduction
