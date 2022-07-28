@@ -1,7 +1,7 @@
 # Short course on R environment
 
 **M.Sc. Marco Antonio Peixoto**
-PhD. candidate in genetics and breeding - UFV 
+PhD. candidate in genetics and breeding - UFV
 Visiting researcher scholar - Univeersity of Florida  
 Quantitative genetics and data analyses
 
@@ -15,9 +15,9 @@ This is an repository created to aidded the short course in R programming offere
 1. Download R and RStudio
 2. Introduction to R and RStudio
 3. Basic functions in R language 
-5. Download and install packages
-6. Models (AoV)
-7. Plotting using ggplot2 package
+4. Download and install packages
+5. Models (AoV)
+6. Plotting using ggplot2 package
 
 ## 3.Content
 
