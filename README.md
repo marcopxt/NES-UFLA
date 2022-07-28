@@ -20,6 +20,7 @@ This is an repository created to aidded the short course in R programming offere
 5. Models (AoV)
 6. Plotting using ggplot2 package
 
+---
 ## 3.Content
 
 #### 1. Download R and RStudio
@@ -63,6 +64,7 @@ Organizing the dataset
 Types of graphs: boxplot, density, histogram
 Saving the graphs
 
+---
 ## 3. Sources that you may use
 
 ### 1. Github
