@@ -2,7 +2,7 @@
 
 **M.Sc. Marco Antonio Peixoto**
 PhD. candidate in genetics and breeding - UFV
-Visiting researcher scholar - Univeersity of Florida  
+Visiting researcher scholar - University of Florida  
 Quantitative genetics and data analyses
 
 ## 1. Introduction
