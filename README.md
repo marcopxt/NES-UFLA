@@ -5,11 +5,12 @@ PhD. candidate in genetics and breeding - UFV
 Visiting researcher scholar - University of Florida  
 Quantitative genetics and data analyses
 
+---
 ## 1. Introduction
 
 This is an repository created to aidded the short course in R programming offered to **Nucleo de estudos em Silvicultura - UFLA**
 
-
+---
 ## 2. Summary
 
 1. Download R and RStudio
