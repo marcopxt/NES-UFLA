@@ -1,4 +1,8 @@
 # Short course in R environment
+M.Sc. Marco Antonio Peixoto
+PhD. candidate in genetics and breeding - UFV
+Visiting researcher scholar - Univeersity of Florida
+Quantitative genetics and data analyses
 
 ## 1. Introduction
 
@@ -26,7 +30,7 @@ ii. Download RStudio (https://www.rstudio.com/products/rstudio/download/)
 
 After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier.
 
-**Tips: go to this link (https://www.youtube.com/watch?v=jpptwObI1ps) that they will explain you everything that you need to download and install both tools**
+**Tip: go to this link (https://www.youtube.com/watch?v=jpptwObI1ps) that they will explain you everything that you need to download and install both tools**
 
 ### 2. Introduction to R and RStudio
 
@@ -44,11 +48,13 @@ Import and export datasets
 
 What is a package and how to install and use them.
 
+CRAN and Github
+
 ### 6. Models (AoV)
 
-An analyses of variance using the package xxx (ref).
+Analyses of variance using the package ExpDes (Ferreira et al, 2021).
 
-### 7. Plotting using ggplot2 package
+### 7. Plotting using **ggplot2** package
 
 Installing the package ggplot2
 Organizing the dataset
