@@ -37,13 +37,15 @@ After the download and intallation of R, you can also download and install RStud
 
 #### 2. Introduction to R and RStudio
 
-Integration, console, IDE, and 
+Integration, console, IDE, and environment
 
 #### 3. Basic functions in R language 
 
 Basic functions (mean, var, mode, length, dim, str).
 
-Basic elements (matrix, dataframe, list,)
+Basic elements (matrix, dataframe, list, arrays)
+
+setdw() command and saving projects
 
 Import and export datasets
 
