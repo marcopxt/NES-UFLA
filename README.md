@@ -25,25 +25,25 @@ This is an repository created to aidded the short course in R programming offere
 
 #### 1. Download R and RStudio
 
-Download R (https://cran.r-project.org/) 
+- Download R (https://cran.r-project.org/) 
 
-Using the link above you can download the R program and install it in your computer. It can be done for Windows, Linux and MAC systems.
+- Using the link above you can download the R program and install it in your computer. It can be done for Windows, Linux and MAC systems
 
-Download RStudio (https://www.rstudio.com/products/rstudio/download/)
+- Download RStudio (https://www.rstudio.com/products/rstudio/download/)
 
-After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier.
+- After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier
 
 **Tip: go to this link (https://www.youtube.com/watch?v=jpptwObI1ps) that they will explain you everything that you need to download and install both tools**
 
 #### 2. Introduction to R and RStudio
 
-Integration, IDE, console, R environment, and communities.
+- Integration, IDE, console, R environment, and communities
 
 #### 3. Basic functions in R language 
 
 - mean, var, mode, length, dim, str
 
-- data structure: matrix, dataframe, list, arrays.
+- data structure: matrix, dataframe, list, arrays
 
 - setdw() command and saving projects
 
@@ -51,20 +51,20 @@ Integration, IDE, console, R environment, and communities.
 
 #### 4. Download and install packages
 
-What is a package and how to install and use them.
+- What is a package and how to install and use them
 
-CRAN and Github
+- CRAN and Github
 
 #### 5. Models (AoV)
 
-Analyses of variance using the package ExpDes (Ferreira et al, 2021).
+- Analyses of variance using the package ExpDes (Ferreira et al, 2021)
 
 #### 6. Plotting using **ggplot2** package
 
-Installing the package ggplot2
-Organizing the dataset
-Types of graphs: boxplot, density, histogram
-Saving the graphs
+- Installing the package ggplot2
+- Organizing the dataset
+- Types of graphs: boxplot, density, histogram
+- Saving the graphs
 
 ---
 ## 3. Sources that you may use
