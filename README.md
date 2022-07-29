@@ -25,11 +25,11 @@ This is an repository created to aidded the short course in R programming offere
 
 #### 1. Download R and RStudio
 
-i. Download R (https://cran.r-project.org/) 
+Download R (https://cran.r-project.org/) 
 
 Using the link above you can download the R program and install it in your computer. It can be done for Windows, Linux and MAC systems.
 
-ii. Download RStudio (https://www.rstudio.com/products/rstudio/download/)
+Download RStudio (https://www.rstudio.com/products/rstudio/download/)
 
 After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier.
 
@@ -37,17 +37,17 @@ After the download and intallation of R, you can also download and install RStud
 
 #### 2. Introduction to R and RStudio
 
-Integration, console, IDE, and environment
+Integration, IDE, console, R environment, and communities.
 
 #### 3. Basic functions in R language 
 
-Basic functions (mean, var, mode, length, dim, str).
+- mean, var, mode, length, dim, str
 
-Basic elements (matrix, dataframe, list, arrays)
+- data structure: matrix, dataframe, list, arrays.
 
-setdw() command and saving projects
+- setdw() command and saving projects
 
-Import and export datasets
+- Import and export/save datasets
 
 #### 4. Download and install packages
 
