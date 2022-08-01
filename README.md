@@ -15,15 +15,15 @@ This is an repository created to aidded the short course in R programming offere
 
 [1 Download R and RStudio](#pt1)
 
-[2. Introduction to R and RStudio](#pt2)
+[2 Introduction to R and RStudio](#pt2)
 
-[3. Basic functions in R language](#pt3)
+[3 Basic functions in R language](#pt3)
 
-[4. Download and install packages](#pt4)
+[4 Download and install packages](#pt4)
 
-[5. Models (AoV)](#pt5)
+[5 Models (AoV)](#pt5)
 
-[6. Plotting using ggplot2 package](#pt6)
+[6 Plotting using ggplot2 package](#pt6)
 
 ---
 ## 3.Content
@@ -32,13 +32,11 @@ This is an repository created to aidded the short course in R programming offere
 
 #### 1. Download R and RStudio
 
+ Use the following link to download R program and install it in your computer. It can be done for Windows, Linux and MAC systems. After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier
+
 - Download R (https://cran.r-project.org/) 
-
-- Using the link above you can download the R program and install it in your computer. It can be done for Windows, Linux and MAC systems
-
 - Download RStudio (https://www.rstudio.com/products/rstudio/download/)
 
-- After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier
 
 **Tip: go to this link (https://www.youtube.com/watch?v=jpptwObI1ps) that they will explain you everything that you need to download and install both tools**
 
