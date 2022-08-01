@@ -126,7 +126,7 @@ p = ggplot(airquality, aes(Temp, Ozone)) +
 
 ```
 
-Plotting the graph
+- Plotting the graph
 
 ```r
 p
