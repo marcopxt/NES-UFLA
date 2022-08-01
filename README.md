@@ -117,6 +117,18 @@ save.table(df1, file = "myoutput.txt)
 - Installing the package ggplot2
 - Organizing the dataset
 - Types of graphs: boxplot, density, histogram, ...
+
+```r
+p = ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess"
+)
+
+#Plot
+
+![ac5ddae7-99d3-489c-8f45-222dd0aaba58](https://user-images.githubusercontent.com/59318360/182243023-284e7120-7d30-496a-bf6c-abc990259d95.png)
+
+
 - Saving the graphs
 
 ---
