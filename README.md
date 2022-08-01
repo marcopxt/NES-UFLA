@@ -61,13 +61,42 @@ mean(data)
 
 var(data)
 
+mode(data)
+
+length(data)
+
+dim(data)
+
+str(data)
+
 ```
 
 - data structure: matrix, dataframe, list, arrays
 
 - setdw() command and saving projects
 
+```r
+
+getwd() #Your currently directory
+
+setwd("C:/folder/folder/") #Your path
+
+```
+
 - Import and export/save datasets
+
+```r
+#reading your data
+df = read.data("mydata.txt)
+
+#Modifing
+df1 = df/sqrt(df)
+
+#saving the output
+
+save.table(df1, file = "myoutput.txt)
+
+```
 
 <div id="pt4" />
 
