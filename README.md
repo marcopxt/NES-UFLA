@@ -124,13 +124,13 @@ p = ggplot(airquality, aes(Temp, Ozone)) +
   geom_smooth(method = "loess"
 )
 
+```
+
 #Plot
 
-```r
 
-![Fig1](https://user-images.githubusercontent.com/59318360/182244379-741ed9e4-06a1-4bb3-b916-34b7ea4b9277.jpeg)
+![Fig1](https://user-images.githubusercontent.com/59318360/Fig1.jpeg)
 
-```
 
 - Saving the graphs
 
