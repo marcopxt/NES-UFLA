@@ -126,7 +126,7 @@ p = ggplot(airquality, aes(Temp, Ozone)) +
 
 #Plot
 
-![Fig1](https://user-images.githubusercontent.com/59318360/182243412-68cc7ee8-f122-402e-947f-c341bc056faa.jpeg)
+![Fig1.jpeg](Fig1.jpeg)
 
 
 - Saving the graphs
