@@ -126,14 +126,20 @@ p = ggplot(airquality, aes(Temp, Ozone)) +
 
 ```
 
-#Plot
+Plotting the graph
 
+```r
+p
+
+```
 
 ![Fig1](https://user-images.githubusercontent.com/59318360/182245039-7b60671b-d4a6-48fd-8929-2cbb6ee7d560.jpeg)
 
 
 
+
 - Saving the graphs
+
 
 ---
 ## 3. Sources that you may use
