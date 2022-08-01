@@ -63,7 +63,7 @@ This is an repository created to aidded the short course in R programming offere
 
 - Installing the package ggplot2
 - Organizing the dataset
-- Types of graphs: boxplot, density, histogram
+- Types of graphs: boxplot, density, histogram, ...
 - Saving the graphs
 
 ---
