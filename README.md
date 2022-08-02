@@ -25,6 +25,7 @@ This is an repository created to aidded the short course in R programming offere
 
 [6 Plotting using ggplot2 package](#pt6)
 
+
 ---
 ## 3.Content
 
@@ -149,3 +150,24 @@ p
 ### 2. Coursera
 
 ### 3. Youtube
+
+### 4. Usefull functions
+
+```r
+#Paste
+paste()
+paste0()
+
+```
+
+### 5. Usefull packages
+
+```r
+tydiverse
+ggplot2
+dplyr
+plyr
+stringr
+
+```
+
