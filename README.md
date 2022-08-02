@@ -8,7 +8,7 @@
 ---
 ## 1. Introduction
 
-This is an repository created to aidded the short course in R programming offered to **Nucleo de estudos em Silvicultura - UFLA**
+This is an repository created to aidded the short course in R programming offered to **Núcleo de estudos em Silvicultura - UFLA**
 
 ---
 ## 2. Summary
@@ -59,11 +59,11 @@ mean(data)
 
 var(data)
 
-mode(data)
+median(data)
 
 length(data)
 
-dim(data)
+#dim(data)
 
 str(data)
 
