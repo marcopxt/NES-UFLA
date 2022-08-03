@@ -158,6 +158,10 @@ p
 paste()
 paste0()
 
+#binds
+rbind()
+cbind()
+
 ```
 
 ### 5. Usefull packages
