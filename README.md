@@ -182,4 +182,8 @@ stringr
 #Graphics
 https://r-graph-gallery.com/index.html
 
+#Paclages cheatsheet
+https://www.rstudio.com/resources/cheatsheets/
+
+
 ```
