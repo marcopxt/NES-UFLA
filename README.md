@@ -116,8 +116,43 @@ save.table(df1, file = "myoutput.txt)
 #### 6. Plotting using **ggplot2** package
 
 - Installing the package ggplot2
+
+```r
+install.packages("ggplot2")
+
+require(ggplot2)
+
+``` 
 - Organizing the dataset
-- Types of graphs: boxplot, density, histogram, ...
+- Using ggplot2
+```r
+ggplot(data, aes(x_, y_)) + #first line you should specify the data and x/y axes. 
+  geom_point()              #Insert the type of graph that you want 
+
+```
+
+- Types of graphs: boxplot, density, histogram, point
+
+Boxplot
+
+```r
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess"
+)
+
+```
+Density
+
+```r
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess"
+)
+
+```
+
+Histogram
 
 ```r
 p = ggplot(airquality, aes(Temp, Ozone)) + 
@@ -125,24 +160,40 @@ p = ggplot(airquality, aes(Temp, Ozone)) +
   geom_smooth(method = "loess"
 )
 
-```
-
-- Plotting the graph
-
-```r
 p
 
 ```
+
+Point
+
+```r
+p = ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess"
+)
+
+p
+
+```
+
 
 ![Fig1](https://user-images.githubusercontent.com/59318360/182245039-7b60671b-d4a6-48fd-8929-2cbb6ee7d560.jpeg)
 
 
 
-
 - Saving the graphs
 
+```r
 
--------
+#saving (We can save several formats, like .tiff, .png, .jpeg or even .pdf)
+
+tiff("filename.tiff", width = 16, height = 8, units = 'in', res = 300)
+plot
+dev.off()
+
+```
+
+---
 ## 3. Sources that you may use
 
 ### 1. Github
