@@ -23,7 +23,11 @@ This is an repository created to aidded the short course in R programming offere
 
 [5 Models (AoV)](#pt5)
 
-[6 Plotting using ggplot2 package](#pt6)
+[6 Tukey test](#pt6)
+
+[7 Regression models](#pt7)
+
+[8 Plotting using ggplot2 package](#pt8)
 
 
 ---
@@ -113,7 +117,21 @@ save.table(df1, file = "myoutput.txt)
 
 <div id="pt6" />
 
-#### 6. Plotting using **ggplot2** package
+#### 6. Tukey test
+
+- Implementation of tukey test
+
+<div id="pt6" />
+
+#### 7. Regression models
+
+- Regression models
+
+
+
+<div id="pt7" />
+
+#### 8. Plotting using **ggplot2** package
 
 - Installing the package ggplot2
 
