@@ -142,7 +142,7 @@ p
 - Saving the graphs
 
 
----
+-------
 ## 3. Sources that you may use
 
 ### 1. Github
