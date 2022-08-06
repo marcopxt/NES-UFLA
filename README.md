@@ -164,9 +164,7 @@ Density
 
 ```r
 ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess"
-)
+  geom_density() 
 
 ```
 
@@ -174,9 +172,7 @@ Histogram
 
 ```r
 p = ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess"
-)
+  geom_histogram() 
 
 p
 
