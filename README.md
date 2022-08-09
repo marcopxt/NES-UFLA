@@ -127,7 +127,7 @@ save.table(df1, file = "myoutput.txt)
 
 - Regression models
 
-
+y = B0 + B1 + e
 
 <div id="pt7" />
 
