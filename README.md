@@ -22,6 +22,8 @@ Zoom link:  https://ufl.zoom.us/j/97857089852?pwd=MzkzTG54ckoxWGJuYk5IcWtkSDh3UT
 This is a repository created to aid the short course in R programming offered to **Núcleo de estudos em Silvicultura - UFLA**
 
 ---
+<div id="top"/>
+
 ## Summary
 
 [1 Download R and RStudio](#pt1)
@@ -30,7 +32,7 @@ This is a repository created to aid the short course in R programming offered to
 
 [3 Basic functions and structures in R language](#pt3)
 
-[4 Download and install packages](#pt4)
+[4. Functions and packages](#pt4)
 
 [5 Models (AoV)](#pt5)
 
@@ -183,9 +185,10 @@ df$YLD = df$YLD/sqrt(df$YLD) #Modifing
 write.table(df, file = "data/myoutput.txt") #saving the output
 
 ```
+-->
 
 <div id="pt4" />
--->
+
 
 #### 4. Functions and packages
 
@@ -476,3 +479,6 @@ https://www.rstudio.com/resources/cheatsheets/
 
 
 ```
+
+
+[Main Menu](#top)
