@@ -210,13 +210,13 @@ dev.off()
 ---
 ## 3. Sources that you may use
 
-### 1. Github
+### i. Github
 
-### 2. Coursera
+### ii. Coursera
 
-### 3. Youtube
+### iii. Youtube
 
-### 4. Usefull functions
+### vi. Usefull functions
 
 ```r
 #Paste
@@ -229,7 +229,7 @@ cbind()
 
 ```
 
-### 5. Usefull packages
+### v. Usefull packages
 
 ```r
 tydiverse
@@ -240,7 +240,7 @@ stringr
 
 ```
 
-### 6. Usefull websites
+### vi. Usefull websites
 
 ```r
 
