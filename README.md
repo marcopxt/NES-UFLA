@@ -160,10 +160,13 @@ Reading your data
 
 ```r
 #reading your data
-df = read.table("data/EX_DATA.txt",h=T)#reading your data
+df0 = read.table("data/EX_DATA.txt",h=T)#reading your data
+
+df = df0
 
 head(df)
 dim(df)
+tail(df)
 
 #Modifying
 df$YLD = df$YLD/sqrt(df$YLD) #Modifing
@@ -217,13 +220,57 @@ mean(dat_mean)
 
 - What is a package and how to install and use them
 
+```r
+install.packages("devtools") #Using install
+
+require(devtools) #Call the package
+
+```
+
 - CRAN and Github
+
+```r
+
+devtools::install_github("adriancorrendo/metrica")
+
+```
 
 <div id="pt5" />
 
 #### 5. Models (AoV)
 
-- Analyses of variance using the package ExpDes (Ferreira et al, 2021)
+- Analyses of variance using the package Agricolae (Mendiburu, 2021)
+
+Install the package and load it
+
+```r
+install.packages("agricolae")
+
+require(agricolae)
+
+```
+
+Runing the model and outputs
+
+```r
+# Model for ANOVA: y = u + block + gen + error 
+mod = aov(YLD ~ NAME + BLOCK,
+          data = df)
+
+#summary
+anova(mod)
+summary.aov(mod)
+
+
+#Mean
+cv.model(mod)
+
+
+#Plot for residuals
+plot(mod)
+
+
+```
 
 <div id="pt6" />
 
