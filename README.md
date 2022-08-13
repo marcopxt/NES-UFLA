@@ -312,7 +312,7 @@ HSD.test(mod,"NAME",group = FALSE, console = TRUE)
 ```
 -->
 
-<div id="pt6" />
+<div id="pt7" />
 
 #### 7. Regression model
 
@@ -340,7 +340,7 @@ plot(reg)
 ```
 -->
 
-<div id="pt7" />
+<div id="pt8" />
 
 #### 8. Plotting using **ggplot2** package
 
@@ -430,7 +430,6 @@ dev.off()
 ```
 -->
 
-<div id="pt8" />
 
 ---
 ## Sources that you may use
