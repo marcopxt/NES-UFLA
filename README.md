@@ -68,6 +68,7 @@ Use the following link to download R program and install it in your computer. It
 
 - mean, variance, median, length, dim, str
 
+<!--
 ```r
 data = rnorm(100,100,20)
 
@@ -85,8 +86,11 @@ str(data)
 
 ```
 
+-->
+
 - data structure: matrix, dataframe, list, arrays
 
+<!--
 Vector
 
 ```r
@@ -145,8 +149,11 @@ str(L1)
 
 ```
 
+-->
+
 - Import and export/save datasets
 
+<!--
 Where is your main directory
 
 ```r
@@ -178,11 +185,13 @@ write.table(df, file = "data/myoutput.txt") #saving the output
 ```
 
 <div id="pt4" />
+-->
 
 #### 4. Functions and packages
 
 - What is a function?
 
+<!--
 Lets creat a mean function
 
 ```r
@@ -217,9 +226,11 @@ media(x=dat_mean)
 mean(dat_mean)
 
 ```
+-->
 
 - What is a package and how to install and use them
 
+<!--
 ```r
 install.packages("devtools") #Using install
 
@@ -234,6 +245,7 @@ require(devtools) #Call the package
 devtools::install_github("adriancorrendo/metrica")
 
 ```
+-->
 
 <div id="pt5" />
 
@@ -241,6 +253,7 @@ devtools::install_github("adriancorrendo/metrica")
 
 - Analyses of variance using the package Agricolae (Mendiburu, 2021)
 
+<!--
 Install the package and load it
 
 ```r
@@ -271,6 +284,7 @@ plot(mod)
 
 
 ```
+-->
 
 <div id="pt6" />
 
@@ -278,6 +292,7 @@ plot(mod)
 
 - Implementation of tukey test
 
+<!--
 ```r
 ###>>>>---- 2. Model
 mod = aov(YLD ~ NAME + BLOCK,df)
@@ -295,14 +310,17 @@ LSD.test(mod,"NAME",console = TRUE)
 HSD.test(mod,"NAME",group = FALSE, console = TRUE)
 
 ```
+-->
 
 <div id="pt6" />
 
-#### 7. Regression models
+#### 7. Regression model
 
-- Regression models
+- Regression model
 
 y = B0 + B1 + e
+
+<!--
 
 Using function lm
 
@@ -320,12 +338,15 @@ reg = lm(df$YLD ~ df$NAME)
 plot(reg)
 
 ```
+-->
 
 <div id="pt7" />
 
 #### 8. Plotting using **ggplot2** package
 
 - Installing the package ggplot2
+
+<!--
 
 ```r
 install.packages("ggplot2")
@@ -391,17 +412,13 @@ ggplot(df, aes(RANGE, YLD)) +
 
 ```
 
-
-
-
-
-
-![Fig1](https://user-images.githubusercontent.com/59318360/182245039-7b60671b-d4a6-48fd-8929-2cbb6ee7d560.jpeg)
+-->
 
 
 
 - Saving the graphs
 
+<!--
 ```r
 
 #saving (We can save several formats, like .tiff, .png, .jpeg or even .pdf)
@@ -411,6 +428,7 @@ plot
 dev.off()
 
 ```
+-->
 
 <div id="pt8" />
 
