@@ -433,7 +433,7 @@ dev.off()
 <div id="pt8" />
 
 ---
-## 3. Sources that you may use
+## Sources that you may use
 
 ### i. Github
 
