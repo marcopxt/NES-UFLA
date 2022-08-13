@@ -218,7 +218,7 @@ dev.off()
 
 ### iii. Youtube
 
-### vi. Usefull functions
+### iv. Usefull functions
 
 ```r
 #Paste
