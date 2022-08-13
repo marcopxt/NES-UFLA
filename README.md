@@ -278,6 +278,24 @@ plot(mod)
 
 - Implementation of tukey test
 
+```r
+###>>>>---- 2. Model
+mod = aov(YLD ~ NAME + BLOCK,df)
+
+##Residual
+
+res = df.residual(mod)
+
+## LSD
+LSD.test(mod,"NAME",console = TRUE)
+
+## Tukey
+#HSD tukey = honestly significant differences
+
+HSD.test(mod,"NAME",group = FALSE, console = TRUE)
+
+```
+
 <div id="pt6" />
 
 #### 7. Regression models
@@ -285,6 +303,23 @@ plot(mod)
 - Regression models
 
 y = B0 + B1 + e
+
+Using function lm
+
+
+```r
+#Regression
+
+# y = Xb + e
+
+#lm(target trait ~ predicted trait)
+
+reg = lm(df$YLD ~ df$NAME)
+
+#Plot
+plot(reg)
+
+```
 
 <div id="pt7" />
 
@@ -308,44 +343,57 @@ ggplot(data, aes(x_, y_)) + #first line you should specify the data and x/y axes
 
 - Types of graphs: boxplot, density, histogram, point
 
-Boxplot
-
-```r
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess"
-)
-
-```
-Density
-
-```r
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_density() 
-
-```
-
-Histogram
-
-```r
-p = ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_histogram() 
-
-p
-
-```
 
 Point
 
 ```r
-p = ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess"
-)
+ggplot(df, aes(YLD, HT)) + 
+  geom_point() 
+
+
+```
+
+Density
+
+```r
+ggplot(df, aes(YLD)) + 
+  geom_density(fill="#69b3a2", 
+               color="#e9ecef", 
+               alpha=0.8) 
+
+```
+
+
+
+Histogram
+
+```r
+p = ggplot(df, aes(HT)) + 
+  geom_histogram(color = "blue",
+                 fill = "blue") 
+ 
 
 p
 
 ```
+
+
+Boxplot
+
+```r
+df$RANGE = df$RANGE %>% as.factor 
+
+ggplot(df, aes(RANGE, YLD)) + 
+  geom_boxplot(fill = "blue") +
+  theme(
+    
+  )
+
+```
+
+
+
+
 
 
 ![Fig1](https://user-images.githubusercontent.com/59318360/182245039-7b60671b-d4a6-48fd-8929-2cbb6ee7d560.jpeg)
