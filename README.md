@@ -2,7 +2,7 @@
 
 **M.Sc. Marco Antonio Peixoto**
 - PhD. candidate in genetics and breeding - UFV
-- Visiting researcher scholar - University of Florida  
+- Visiting scholar researcher - University of Florida  
 - Quantitative genetics/genomics and data analyses
 
 ---
@@ -32,7 +32,7 @@ This is a repository created to aid the short course in R programming offered to
 
 [3 Basic functions and structures in R language](#pt3)
 
-[4. Functions and packages](#pt4)
+[4 Functions and packages](#pt4)
 
 [5 Models (AoV)](#pt5)
 
@@ -48,7 +48,7 @@ This is a repository created to aid the short course in R programming offered to
 
 <div id="pt1" />
 
-#### 1. Download R and RStudio
+#### 1 Download R and RStudio
 
 Use the following link to download R program and install it in your computer. It can be done for Windows, Linux and MAC systems. After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier.
 
@@ -60,13 +60,13 @@ Use the following link to download R program and install it in your computer. It
 
 <div id="pt2" />
 
-#### 2. Introduction to R and RStudio
+#### 2 Introduction to R and RStudio
 
 - Integration, IDE, console, R environment, and communities
 
 <div id="pt3" />
 
-#### 3. Basic functions and structures in R language 
+#### 3 Basic functions and structures in R language 
 
 - mean, variance, median, length, dim, str
 
@@ -190,7 +190,7 @@ write.table(df, file = "data/myoutput.txt") #saving the output
 <div id="pt4" />
 
 
-#### 4. Functions and packages
+#### 4 Functions and packages
 
 - What is a function?
 
@@ -252,7 +252,7 @@ devtools::install_github("adriancorrendo/metrica")
 
 <div id="pt5" />
 
-#### 5. Models (AoV)
+#### 5 Models (AoV)
 
 - Analyses of variance using the package Agricolae (Mendiburu, 2021)
 
@@ -291,7 +291,7 @@ plot(mod)
 
 <div id="pt6" />
 
-#### 6. Tukey test
+#### 6 Tukey test
 
 - Implementation of tukey test
 
@@ -317,7 +317,7 @@ HSD.test(mod,"NAME",group = FALSE, console = TRUE)
 
 <div id="pt7" />
 
-#### 7. Regression model
+#### 7 Regression model
 
 - Regression model
 
@@ -345,7 +345,7 @@ plot(reg)
 
 <div id="pt8" />
 
-#### 8. Plotting using **ggplot2** package
+#### 8 Plotting using **ggplot2** package
 
 - Installing the package ggplot2
 
