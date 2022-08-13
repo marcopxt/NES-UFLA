@@ -6,9 +6,20 @@
 - Quantitative genetics/genomics and data analyses
 
 ---
+
+## Information
+
+Date: 08/27/2022 
+
+Time: 9-12 am (GMT 3) 
+
+Zoom link:  https://ufl.zoom.us/j/97857089852?pwd=MzkzTG54ckoxWGJuYk5IcWtkSDh3UT09
+
+
+---
 ## Introduction
 
-This is an repository created to aidded the short course in R programming offered to **Núcleo de estudos em Silvicultura - UFLA**
+This is a repository created to aid the short course in R programming offered to **Núcleo de estudos em Silvicultura - UFLA**
 
 ---
 ## Summary
@@ -17,7 +28,7 @@ This is an repository created to aidded the short course in R programming offere
 
 [2 Introduction to R and RStudio](#pt2)
 
-[3 Basic functions in R language](#pt3)
+[3 Basic functions and structures in R language](#pt3)
 
 [4 Download and install packages](#pt4)
 
@@ -53,9 +64,9 @@ Use the following link to download R program and install it in your computer. It
 
 <div id="pt3" />
 
-#### 3. Basic functions in R language 
+#### 3. Basic functions and structures in R language 
 
-- mean, var, mode, length, dim, str
+- mean, variance, median, length, dim, str
 
 ```r
 data = rnorm(100,100,20)
@@ -76,34 +87,133 @@ str(data)
 
 - data structure: matrix, dataframe, list, arrays
 
-- setdw() command and saving projects
+Vector
 
 ```r
 
+V1 = c(1:15)
+
+V1[1]
+
+```
+
+Matrix
+
+
+```r
+M1 = matrix(V1, nrow = 5,ncol = 3)
+
+M1[1,3]
+
+```
+
+Arrays
+
+```r
+V2 = c(16:30)
+M2 = matrix(V2,ncol=3,nrow=5)
+
+A1 = array(c(M1,M2), dim=c(3,5,2))
+
+```
+
+
+Data frame
+
+```r
+df1 = data.frame(id=c(rep(c(1,2,3,4,5),2)),
+                  Var1=c(rnorm(10,10,1)),
+                  Var2=c(runif(10,2,5)),
+                  Var3=c(rep(c("a","b"),5)))
+
+str(df1)
+
+```
+
+List 
+
+```r
+L1=list()
+
+L1[[1]] = c(1,2,5,6,4,5,4,9)
+
+L1[[2]] = c(54,28,68,45,75,98,74,68,45,45,"u","t","d",3,"x",6)
+
+L1[[3]] = c(rnorm(18, 2,0.7))
+
+str(L1)
+
+```
+
+- Import and export/save datasets
+
+Where is your main directory
+
+```r
 getwd() #Your currently directory
 
 setwd("C:/folder/folder/") #Your path
 
 ```
 
-- Import and export/save datasets
+Reading your data
 
 ```r
 #reading your data
-df = read.data("mydata.txt)
+df = read.table("data/EX_DATA.txt",h=T)#reading your data
 
-#Modifing
-df1 = df/sqrt(df)
+head(df)
+dim(df)
+
+#Modifying
+df$YLD = df$YLD/sqrt(df$YLD) #Modifing
 
 #saving the output
 
-save.table(df1, file = "myoutput.txt)
+write.table(df, file = "data/myoutput.txt") #saving the output
 
 ```
 
 <div id="pt4" />
 
-#### 4. Download and install packages
+#### 4. Functions and packages
+
+- What is a function?
+
+Lets creat a mean function
+
+```r
+dat_mean = c(1:5)
+
+#Mean R (1)
+mean(dat_mean)
+
+#Mean (2) = soma(dat_mean)/n(dat_mean)
+(1+2+3+4+5)/5
+
+#Mean (3)
+sum(dat_mean)/length(dat_mean)
+
+#Function
+media = function(x){
+  y = sum(x)
+  y2 = length(x)
+  
+  y3 = y/y2
+
+  return(y3)  
+}
+
+#Generate a new dataset
+x = rnorm(20, 10, 2)
+
+#our function
+media(x=dat_mean)
+
+#R function
+mean(dat_mean)
+
+```
 
 - What is a package and how to install and use them
 
