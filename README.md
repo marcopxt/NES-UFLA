@@ -13,7 +13,7 @@ Date: 08/27/2022
 
 Time: 9-12 am (GMT 3) 
 
-Zoom link:  https://ufl.zoom.us/j/97857089852?pwd=MzkzTG54ckoxWGJuYk5IcWtkSDh3UT09
+Zoom link:  https://ufl.zoom.us/j/98675357675?pwd=RzFVNHlSZFBMZk9hYnF5bXRUcU0xZz09
 
 
 ---
