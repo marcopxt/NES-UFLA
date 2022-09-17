@@ -469,14 +469,19 @@ stringr
 
 ### vi. Usefull websites
 
+#Graphics
+
 ```r
 
-#Graphics
 https://r-graph-gallery.com/index.html
 
-#Paclages cheatsheet
-https://www.rstudio.com/resources/cheatsheets/
+```
 
+#Paclages cheatsheet
+
+```r
+
+https://www.rstudio.com/resources/cheatsheets/
 
 ```
 
