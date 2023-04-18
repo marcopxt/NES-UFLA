@@ -13,8 +13,6 @@ Date: 08/27/2022
 
 Time: 9-12 am (GMT 3) 
 
-Zoom link:  https://ufl.zoom.us/j/98675357675?pwd=RzFVNHlSZFBMZk9hYnF5bXRUcU0xZz09
-
 
 ---
 ## Introduction
@@ -92,7 +90,6 @@ str(data)
 
 - data structure: matrix, dataframe, list, arrays
 
-<!--
 Vector
 
 ```r
@@ -150,8 +147,6 @@ L1[[3]] = c(rnorm(18, 2,0.7))
 str(L1)
 
 ```
-
--->
 
 - Import and export/save datasets
 
