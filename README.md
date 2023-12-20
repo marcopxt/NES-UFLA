@@ -48,13 +48,13 @@ This is a repository created to aid the short course in R programming offered to
 
 #### 1 Download R and RStudio
 
-Use the following link to download R program and install it in your computer. It can be done for Windows, Linux and MAC systems. After the download and intallation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It basically makes your life easier.
+Use the following link to download the R program and install it on your computer. It can be done for Windows, Linux, and MAC systems. After the download and installation of R, you can also download and install RStudio. RStudio is an IDE (integrated development environment). It makes your life easier.
 
 - Download R (https://cran.r-project.org/) 
 - Download RStudio (https://www.rstudio.com/products/rstudio/download/)
 
 
-**Tip: go to this link (https://www.youtube.com/watch?v=28bKdOtIgSY) that they will explain you everything that you need to download and install both tools**
+**Tip: go to this link (https://www.youtube.com/watch?v=28bKdOtIgSY) they will explain to you everything that you need to download and install both tools**
 
 <div id="pt2" />
 
@@ -261,7 +261,7 @@ require(agricolae)
 
 ```
 
-Runing the model and outputs
+Running the model and outputs
 
 ```r
 # Model for ANOVA: y = u + block + gen + error 
