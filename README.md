@@ -472,7 +472,7 @@ https://r-graph-gallery.com/index.html
 
 ```
 
-#Paclages cheatsheet
+#Packages cheatsheet
 
 ```r
 
